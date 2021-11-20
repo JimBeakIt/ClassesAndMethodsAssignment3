@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace ClassesAndMethodsAssignment3
 {
-    class Program
+    public class VoidMeth
     {
-        static void Main(string[] args)
+        public void sum(int num1, int num2)
         {
-            VoidMeth ex = new VoidMeth();
-            ex.sum(20, 10);
-
-            Console.ReadLine();
+            Console.WriteLine("sum = " + (num1 + 4));
+            Console.WriteLine(num2);
         }
     }
 }
