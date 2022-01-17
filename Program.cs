@@ -12,7 +12,7 @@ namespace ClassesAndMethodsAssignment3
         {
             VoidMeth ex = new VoidMeth();
             ex.sum(20, 10);
-
+            ex.sum(num1: 7, num2: 5);
             Console.ReadLine();
         }
     }
